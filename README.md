@@ -2,66 +2,45 @@
   Pembuatan <i>Dashboard</i> Informasi pada Data Film Indonesia Menggunakan Aplikasi <i>Tableau</i> (Studi Kasus: Dataset IMDb Film Indonesia 1926-2020)
 </h1>
 
-<h3 align="center">Tautan dalam mengakses <i>dashboard</i>: https://github.com/Khadafi141/ProjectVisdat.git </h3>
+<h3 align="center">Tautan dalam mengakses <i>dashboard</i>: https://github.com/cyberwild12/ProjectUASVisdat.git </h3>
 <br>
 <h2>Ringkasan Penelitian</h2>
 <h3>1. Latar Belakang </h3>
   <p align="justify"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Handphone</i> atau Gadget sudah bukan lagi menjadi barang mewah oleh karenanya kebutuhan ponsel pintar atau smarthphone semakin meningkat, tidak hanya untuk kalangan orang dewaasa tetapi juga anak-anak sekarang banyak yang sudah mempunyai ponsel pintarnya sendiri. Jumlah perputaran pelanggan <i>Handphone</i> di Indonesia diprediksi mencapai 8,6 persen dalam satu bulan (Adiningsih, 2007). Bermacam produk <i>Smartphone</i>, termasuk banyaknya <i>Smartphone</i> buatan China dan juga semakin murah harga paketan internet, makanya konsumen mempunyai banyak sekali alternatif pilihan untuk dipilih. faktor lainnya yang juga mendukung permintaan <i>Smartphone</i> tinggi yaitu fakta bahwa mobilitas individu yang juga didukung fenomena <i>online</i> communities di perkotaan, tidak hanya di negara maju, tetapi juga di negara berkembang (Zhang dan Watts, 2008).
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sepanjang tahun proses pembuatan film berlangsung di seluruh dunia. Berbagai genre film diproduksi dengan menggunakan teknologi dan teknik sinematik yang semakin bervariasi. Film menjadi cerminan budaya dan juga media representasi suatu bangsa. Hal ini dikarenakan film adalah hasil kerja kolektif dimana proses pembuatan film pasti melibatkan sejumlah unsur atau profesi, seperti produser, sutradara, penata kamera, penulis skenario, penata artistik, editor, penata musik, pengisi dan penata suara, serta aktor-aktris.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angka Buta Huruf (ABH) adalah proporsi penduduk usia 15 tahun ke atas yang tidak dapat membaca dan atau menulis huruf latin atau huruf lainnya terhadap penduduk usia 15 tahun ke atas di suatu daerah (BPS RI, 2015). Angka buta huruf yang semakin kecil diharapkan dapat mengurangi tingkat kemiskinan di suatu daerah sehingga tingkat kesejahteraan daerah tersebut diharapkan dapat semakin meningkat.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada awal abad ke-19, ketika Thomas Alfa Edison menemukan mesin sinema pertama bernama kinematografi, industri perfilman dunia terus berkembang. Awalnya, produksi-produksi film Perancis menjadi motor kebangkitan film dunia, ditandai oleh film pertama hasil karya Charles Pathe. Namun, setelah perang dunia 1 usai, industri perfilman Hollywood merajai pasar perfilman dunia. buan film diproduksi setiap tahun dan perkembangan industri film kini menjadi milik dunia tidak hanya Hollywood. India yang menjadi negara paling produktif dalam pembuatan film, menamakan industrinya dengan nama Bollywood –gabungan nama Bombay dan Hollywood. Sementara pada dunia yang lain, Nigeria pun mulai membangun industri film alternatif dengan nama Nollywood. Namun demikian, Cina merupakan negara yang disebutkan sebagai salah satu pasar film yang pertumbuhannya paling cepat diantara negara lainnya.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tableau adalah <i>tools/platform</i> untuk membuat visualisasi data lebih interaktif, mudah dibaca, dan mudah dianalisa. Visualisasi yang dilakukan adalah mengubah data tabel yang kaku menjadi bentuk grafik, diagram, geo mapping, dan sebagainya yang mampu memperlihatkan perubahan dan perbedaan data menjadi lebih jelas. Alhasil, tampilan data hasil analisis statistik biasa menjadi lebih cantik dengan visual yang <i>eye-catching</i> menggunakan pilihan <i>dashboard</i> interaktif yang disediakan Tableau.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ketertarikan terhadap industri kreatif mulai berkembang. Tidak hanya diantara negara-negara maju, tetapi juga negara-negara berkembang dalam beberapa tahun terakhir. Ekonomi kreatif merupakan sebuah konsep yang menempatkan kreativitas dan pengetahuan sebagai aset utama sebagai penggerak ekonomi. Pesan besar yang ditawarkan ekonomi kreatif adalah pemanfaatan cadangan sumber daya yang bukan hanya terbarukan, bahkan tak terbatas, yaitu ide, talenta dan kreativitas.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tableau merupakan salah satu perangkat lunak yang digunakan dalam aplikasi <i>Business Intelegence</i>, dengan penerapan <i>Business Intelegence</i> pada Tableau menghasilkan visualisasi data secara interaktif dengan cara meng-import dataset ke dalam Tableau dan membuat visualisasi yang mempermudah dalam memahami suatu informasi.
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kemampuan visualisasi data dan informasi yang dimiliki oleh <i>dashboard</i> memudahkan para pemilik kebijakan untuk merencanakan langkah apa yang seharusnya diambil. Oleh karena itu diharapkan dari hasil visualisasi data ini dapat dijadikan sebagai masukan kepada pihak pemerintah khususnya kementrian sosail untuk meningkatkan kualiatas literasi di tiap provinsi yang ada di Indonesia. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Untuk meningkatkan industri film di Indonesia maka perlu melihat sejarah perkembangan film di Indonesia sebagai tolak ukur mengenai tren film yang sering muncul berdasarkan genre. Penyajian data yang baik dapat mempermudah orang-orang yang mengamati tren dunia perfilman di Indonesia. Sehingga pembuatan dashboard ini diharapkan dapat menjadi media informasi yang lebih mudah dicerna bahkan oleh semua orang.
    </p>
   
 <h3>2. Tujuan Penelitian</h3>
   <p align="justify">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan uraian yang telah dipaparkan pada latar belakang, maka tujuan penelitian yang ingin dicapai pada penelitian ini yaitu :
     <ul>
-    <li>Untuk mengetahui sebaran proporsi individu yang memiliki gadget di Indonesia</li>
-    <li>Untuk mengetahui sebaran presentase ABH di Indonesia</i></li>
-    <li>Meniliti apakah Proporsi individu yang memiliki gadget berkaitan dengan ABH di suatu daerah</li>
+    <li>Membuat visualisasi dari hasil publikasi data yang diambil dari website kaggle yang bersumber dari IMDb terkait data film Indonesia tahun 1926 hingga 2020 dengan memanfaatkan <i>software tableau</i>.</li>
+    <li>Membangun <i>dashboard</i> informasisebagai wadah penyajian data dan informasi mengenai data film Indonesia</i></li>
   </ul>
   </p>
   
 <h3>3. Metode Penelitian</h3>
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada artikel ini peneliti menggunakan dataset yang diperoleh dari website kaggle yang bersumber dari IMDb dan kemudian diolah menggunakan tableau sehingga menjadi pertimbangan dalam pengambilan keputusan berdasarkan visualisasi tersebut.
+</p>
   <h4> A. Studi Literatur </h4>
   <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tahap awal penelitian ini adalah melakukan studi literatur dari penelitian lain yang berkenaan dengan pembangunan <i>dashboard</i> visualisasi data dan informasi menggunakan <i>Library Flexdashboard R</i>. Studi literatur penelitian ini diperoleh melalui jurnal dan artikel ilmiah yang membahas tentang teknik visualisasi data dan pembuatan <i>dashboard</i> informasi.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tahap awal pada penelitian ini adalah melakukan studi literature yang berkenaan dengan metode pengumpulan data pustaka, membaca dan mencatat, serta mengelola bahan penelitian. Studi literatur dilakukan dengan mempelajari berbagai jurnal ilmiah serta artikel yang terkait dengan penelitian yang membahas tentang teknik visualisasi data dan <i>dashboard</i>
   </p>
-  <h4> B. Pengumpulan Data </h4>
-  <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data yang akan digunakan merupakan indikator kemiskinan yang dirilis oleh BPS yang terdiri atas 5 variabel meliputi:
-  <ol>
-    <li>Variabel Jumlah Penduduk Miskin</li>
-    <li>Variabel Persentase Penduduk Miskin</li>
-    <li>Variabel Garis Kemiskinan</li>
-    <li>Variabel Indeks Kedalaman Kemiskinan</li>
-    <li>Variabel Indeks Keparahan Kemiskinan</li>
-    <li>Variabel Indeks Gini (<i>Gini Ratio</i>)</li>
-  </ol> 
-Kelima variabel data yang dikumpulkan dari tahun 2011 hingga 2021, baik dalam lingkup nasional maupun lingkup provinsi. 
-  </p>
-  <h4> C. Pengolahan Data </h4>
+  <h4> B. Pengolahan Data </h4>
   <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada proses pengolahan data dilakukan beberapa tahapan sebelum data divisualisasikan. Tahapan pengolahan data ini penting karena data-data yang telah dihimpun perlu disesuaikan dan diseleksi berdasarkan referensi waktu dan wilayah cakupan penelitian. Tahapan pengolahan data ini meliputi pembersihan data (<i>data cleaning</i>), identifikasi variabel, penyatuan data (<i>data integration</i>), perencanaan jenis visualisasi, dan konversi data (<i>data convertion</i>). Seluruh tahapan dalam pengolahan data dilakukan pada <i>Microsoft Office Excel</i> dan <i>R</i>.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sumber data (<i>datasource(</i>) yang digunakan dalam artikel ini berupa data film di Indonesia pada tahun 1926-2020. Data tersebut dalam format .csv yang diperoleh dari website kaggle yang bersumber dari IMDb yang terdiri dari 11 kolom dan 1272 baris yang meliputi variabel <i>Title, Year, Description, Genre, Rating, User Rating, Votes, Languages, Directors, Actors</i>, dan <i>Runtime</i>. Tools yang digunakan untuk membantu pengolahan data adalah <i>Microsoft Office Excel</i>.    
   </p>
-  <h4> D. Visualisasi Data </h4>
+  <h4> C. <i>Dashboard</i> dan Visualisasi Data </h4>
   <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada tahapan ini, data yang sudah diolah akan dilakukan visualisasi sesuai dengan rencana jenis visualisasi yang telah ditetapkan sebelumnya. Alat atau tools dalam pembuatan visualisasi data ini menggunakan beberapa library visualisasi data di dalam koleksi modul R. Library tersebut antara lain <i>highcharter, DT, plotly, ggplot2, mapview,</i> dan lain-lain. Adapun dalam pemilihan warna dan tema grafik menggunakan library viridis untuk memberikan efek gradien warna pada chart visualisasi data tertentu yang memberikan penekanan atau maksud tertentu. Berikut ini rencana jenis visualisasi yang akan dibuat:
-  <ul>
-    <li>Visualisasi Teks Sederhana (<i>Simple Text</i>)</li>
-    <li>Visualisasi <i>Bar Chart</i></li>
-    <li>Visualisasi <i>Pie Chart</i>
-    <li>Visualisasi <i>Line Chart</i></li>
-    <li>Visualisasi Tabular (<i>Data Table</i>)</li>
-    <li>Visualisasi Peta Tematik Interaktif (<i>Interactive Choropleth Map</i>)</li>
-  </ul>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Dashboard</i> dan visualisasi data bertujuan untuk memahami sebuah sejarah, progam, dan konteksnya, menganalisis berbagai bentuk data, membantu pengumpulan data. Data yang sudah diolah akan dilakukan visualisasi sesuai dengan jenis visualisasi yang paling diperlukan. <i>Tools</i> yang digunakan dalam pembuatan visualisasi data ini adalah <i>Tableau</i>. Beberapa jenis visualisasi yang akan di implementasikan pada data adalah, <i>bar chart</i> dan <i>line chart</i>. Setelah visualisasi sudah berhasil maka melakukan penggabungan ke dalam <i>dashboard</i> yang akan disesuaikan sesuai kebutuhan
   </p>
-  
   <h4> E. <i>Design Dashboard</i></h4>
   <p><i>Design Dashboard</i> dibuat menggunakan aplikasi <i>Figma</i>. Berikut ini tampilan <i>design dashboard</i> tiap halaman.</p>
   <ol>
@@ -77,21 +56,6 @@ Kelima variabel data yang dikumpulkan dari tahun 2011 hingga 2021, baik dalam li
   <li><h5><i>Design Dashboard</i> Halaman Informasi</h5></li>
   <img src="Images/Design_Dashboard_4.png"> </img>
   </ol>
-
-  <h4> F. Perancangan <i>Dashboard</i></h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Dashboard</i> yang efektif didesain dengan penuh cermat dan mempertimbangkan peran dari pengguna dalam pengambilan keputusan. Haryanti (2008) menjabarkan mengenai metodologi pembangunan dasbor terdiri atas 7 tahap, meliputi identifikasi kebutuhan, perencanaan, perancangan prototype, <i>review prototype</i>, implementasi, <i>deployment</i>, dan <i>maintenance</i>.
-</p>
-  
-  <h4> G. Evaluasi Sistem</h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluasi sistem yang digunakan menggunakan pengukuran dengan <i>System Usability Scale (SUS)</i>. Pengujian SUS dilakukan untuk mengukur tingkat kegunaan suatu aplikasi. SUS dilakukan dengan mengisi kuesioner yang terdiri atas 10 item pernyataan mengenai sistem yang dibangun. Pernyataan diukur menggunakan skala likert 1-5 dengan definisi sangat tidak setuju hingga sangat setuju. Dalam konteks ini, aplikasi yang akan dievaluasi berupa <i>dashboard</i> informasi profil kemiskinan Indonesia tahun 2021.
-  </p>
-  
-  <h4> H. Penyusunan Laporan</h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tahap akhir dalam penelitian ini adalah melakukan penyusunan laporan. Laporan ini akan dibuat dalam format IEEE dengan menyesuaikan isi yang terdapat pada proposal penelitian dan hasil yang diperoleh dari pembuatan dashboard informasi mengenai profil kemiskinan di Indonesia tahun 2021 hingga proses publikasi ke dalam web server telah selesai dilakukan. 
-  </p>
   
   <h3>4. Hasil dan Pembahasan</h3>
   <h4>A. Hasil Tampilan <i>Dashboard</i> dan Visualisasi Data</h4>
